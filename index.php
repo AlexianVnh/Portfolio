@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Alexian V</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="icon" href="images/logo_portfolio/logo_portfolio.png" type="image/x-icon"> <!--Icone du site-->
+
+    <script src="js/script.js" defer></script>
+</head>
+
+<header class="width-responsive">
+    <img src="images/logo_portfolio/logo_portfolio_blanc.png" alt="Logo Portfolio" height="35">
+    <img src="images/logo_portfolio/logo_seul_portfolio_blanc.png" alt="Logo Portfolio" height="35">
+
+
+    <nav>
+        <a href="index.php#">Accueil</a>
+        <a href="index.php#projets">Projets</a>
+        <a href="index.php#contact">Contact</a>
+    </nav>
+
+    <nav>
+        <a href="mailto:vnh.alexian@gmail.com">
+            <svg width="40" height="40" style="fill: #fff;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M112 128C85.5 128 64 149.5 64 176C64 191.1 71.1 205.3 83.2 214.4L291.2 370.4C308.3 383.2 331.7 383.2 348.8 370.4L556.8 214.4C568.9 205.3 576 191.1 576 176C576 149.5 554.5 128 528 128L112 128zM64 260L64 448C64 483.3 92.7 512 128 512L512 512C547.3 512 576 483.3 576 448L576 260L377.6 408.8C343.5 434.4 296.5 434.4 262.4 408.8L64 260z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/alexian-vannieuwenhuyze-a8583526a/">
+            <svg width="40" height="40" style="fill: #fff;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M512 96L127.9 96C110.3 96 96 110.5 96 128.3L96 511.7C96 529.5 110.3 544 127.9 544L512 544C529.6 544 544 529.5 544 511.7L544 128.3C544 110.5 529.6 96 512 96zM231.4 480L165 480L165 266.2L231.5 266.2L231.5 480L231.4 480zM198.2 160C219.5 160 236.7 177.2 236.7 198.5C236.7 219.8 219.5 237 198.2 237C176.9 237 159.7 219.8 159.7 198.5C159.7 177.2 176.9 160 198.2 160zM480.3 480L413.9 480L413.9 376C413.9 351.2 413.4 319.3 379.4 319.3C344.8 319.3 339.5 346.3 339.5 374.2L339.5 480L273.1 480L273.1 266.2L336.8 266.2L336.8 295.4L337.7 295.4C346.6 278.6 368.3 260.9 400.6 260.9C467.8 260.9 480.3 305.2 480.3 362.8L480.3 480z"/></svg>
+        </a>
+    </nav>
+</header>
+
+<main>
+    <section class="herobanner section">
+        <div class="width-responsive">
+            <h2>Vous cherchez un <br>stagiaire <span style="text-decoration: underline;">Polyvalent</span> ?</h2>
+            <h1>BIENVENUE</h1>
+
+            <a href="images/CV/CV_portfolio.pdf" class="CV-button" target="_blank">VOIR MON CV</a>
+        </div>
+
+        <div class="fond1"></div>
+        <div class="fond2"></div>
+        <img src="images/logo_portfolio/logo_portfolio_black.png" alt="" height="350px">
+    </section>
+
+
+    
+
+
+    <section class="projets-section section">
+        <div class="width-responsive">
+            <h2>Projets</h2>
+
+            <nav>
+                <div class="mobile-animation scrollable">
+                    <a href="#" class="projets-button active" data-filter="all">#TOUT</a>
+                    <a href="#" class="projets-button inactive" data-filter="webdesigner">#WEBDESIGNER</a>
+                    <a href="#" class="projets-button inactive" data-filter="graphiste">#GRAPHISTE</a>
+                    <a href="#" class="projets-button inactive" data-filter="3d">#3D MODELER</a>
+                    <a href="#" class="projets-button inactive" data-filter="communicant">#COMMUNICANT</a>
+                </div>
+            </nav>
+
+            <div class="projets-content">
+                <div class="projets-card" data-type="webdesigner">
+                    <div>
+                        <h3>Site - Les Amis de Ruth</h3>
+                        <p class="exp-grey">#WebDesign #SEO</p>
+                        <p>Développement d’un site vitrine afin de présenter l’association et sa démarche.</p>
+                    
+                        <div class="exp-date">
+                            2025
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/projets/lesamisderuth.png" alt="Site Les Amis de Ruth" width="150px">
+                    </div>
+                </div>
+
+                <div class="projets-card" data-type="webdesigner">
+                    <div>
+                        <h3>Site - Les Amis de Ruth</h3>
+                        <p class="exp-grey">#WebDesign #SEO</p>
+                        <p>Développement d’un site vitrine afin de présenter l’association et sa démarche.</p>
+                    
+                        <div class="exp-date">
+                            2025
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/projets/lesamisderuth.png" alt="Site Les Amis de Ruth" width="150px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="quijesuis-section section">
+        <div class="width-responsive">
+            <div class="exp-column">
+                <h2>Qui je suis ?</h2>
+                <p class="quijesuis-txt">
+                    Bonjour ! Je m’appelle Alexian Vannieuwenhuyze. <span>Un profil multi-tâche</span>, actuellement étudiant en 3ème année de la formation “Métiers du Multimédia et de l’Internet”.
+                    <br><br>
+                    <span>Intéressé par tous les domaines</span> du développement web à la création graphique en passant par la 3D : je sais allier toutes mes compétences pour <span>aboutir à une communication pluri-média et adaptée</span>.
+                </p>
+            </div>
+            <div class="exp-column">
+                
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="exp-section section">
+        <div class="width-responsive">
+            <div class="exp-column parcours">
+                <h2>Mon parcours</h2>
+
+                <div class="exp-card">
+                    <div>
+                        <h3>B.U.T. Métiers du Multimédia et de l'Internet</h3>
+                        <img src="images/experiences/logo_IUT_Lannion.svg" alt="Logo IUT Lannion" height="50px">
+                    </div>
+                    
+                    <p class="exp-grey">Lannion</p>
+                    <p>Développement Web approfondi, audiovisuel, graphisme, communication et marketing.</p>
+                
+                    <div class="exp-date">
+                        2023 - 2026
+                    </div>
+                </div>
+                <div class="exp-card">
+                    <div>
+                        <h3>B.U.T. Informatique</h3>
+                        <img src="images/experiences/logo_IUT_Lannion.svg" alt="Logo IUT Lannion" height="50px">
+                    </div>
+                    
+                    <p class="exp-grey">Lannion</p>
+                    <p>Logique algorithmique, Développement C, Python et Web.</p>
+                
+                    <div class="exp-date">
+                        2022 - 2023
+                    </div>
+                </div>
+                <div class="exp-card">
+                    <div>
+                        <h3>Lycée du Kreisker</h3>
+                        <img src="images/experiences/logo_kreisker.png" alt="Logo lycée Kreisker" height="50px">
+                    </div>
+                    
+                    <p class="exp-grey">Saint-Pol de Léon</p>
+                    <p>Baccalauréat mention Bien spécialité Arts Plastique et Numérique et Sciences Informatiques.</p>
+                
+                    <div class="exp-date">
+                        2019 - 2022
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="exp-column experience">
+                <h2>Mes expériences</h2>
+
+                <div class="exp-card">
+                    <div>
+                        <h3>Stage - Savez Vous Planter Les Choux</h3>
+                        <img src="images/experiences/logo_svplc.png" alt="Logo SavezVousPlanterLesChoux" height="50px">
+                    </div>
+                    
+                    <p>Refonte et développement du site vitrine, du maquettage au SEO. Développement de la présence en ligne via les réseaux.</p>
+                
+                    <div class="exp-date">
+                        Avril - Juin 2025
+                    </div>
+                </div>
+                <div class="exp-card">
+                    <div>
+                        <h3>Alternance - Appaloosa</h3>
+                        <img src="images/experiences/logo_appaloosa.svg" alt="Logo Appaloosa" height="20px">
+                    </div>
+                    
+                    <p>Développement d’un site vitrine pour l’entreprise et autres petites missions de maintenance.</p>
+                
+                    <div class="exp-date">
+                        Sept. - Déc. 2024
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </section>
+    
+</main>
+
+<footer class="footer">
+    <div class="width-responsive footer-content">
+        <img src="images/logo_portfolio/logo_portfolio_black.png" alt="Décoration" height="180" style="transform: rotate(180deg);">
+
+        <div class="footer-middle">
+            <h2>CONTACTEZ MOI</h2>  
+            <p>N’hésitez pas à m’envoyer un mail !</p>
+            <a href="mailto:vnh.alexian@gmail.com">vnh.alexian@gmail.com</a>  
+        </div>
+            
+        <img src="images/logo_portfolio/logo_portfolio_black.png" alt="Décoration" height="180">
+    </div>
+
+    <div class="footer-end">
+        <p>@tous droits réservés - Alexian Vannieuwenhuyze</p>
+    </div>
+</footer>    
