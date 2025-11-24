@@ -151,6 +151,9 @@ header {
     position: absolute;
     top: 0%;
     left: 10%;
+    @media (max-width: 1500px) {    
+      left: 5%;
+    }
     z-index: -1;
 
     @media (max-width: 900px) {    
@@ -298,8 +301,9 @@ header {
       justify-content: space-between;
       flex-wrap: wrap;
       gap: 20px;
-
+git
       max-width: 500px;
+      flex: 1; //prend le max entre ces deux valeurs là
       min-width: 350px;
 
       & * {color: $black;}
