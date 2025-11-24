@@ -301,9 +301,8 @@ header {
       justify-content: space-between;
       flex-wrap: wrap;
       gap: 20px;
-git
+
       max-width: 500px;
-      flex: 1; //prend le max entre ces deux valeurs là
       min-width: 350px;
 
       & * {color: $black;}
