@@ -1,0 +1,66 @@
+[
+  {
+    "type": "webdesigner",
+    "title": "Site - Les Amis de Ruth",
+    "tags": ["WebDesign", "SEO"],
+    "description": "Développement du site vitrine de l'association Les Amis de Ruth afin de présenter leurs activités et leur démarche.",
+    "year": "2025",
+    "image": "images/projets/lesamisderuth.png",
+    "alt": "Site Les Amis de Ruth"
+  },
+  {
+    "type": "webdesigner",
+    "title": "Site pour Savez Vous Planter Les Choux",
+    "tags": ["WebDesign", "SEO", "Wordpress"],
+    "description": "Développement du site vitrine de l'entreprise, comprenant des notions SEO pour se démarquer des concurrents",
+    "year": "2025",
+    "image": "images/projets/SVPLCSite.png",
+    "alt": "Site SavezVousPlanterLesChoux",
+    "seeMore": "https://www.savezvousplanterleschoux.fr/"
+  },
+  {
+    "type": "webdesigner",
+    "title": "Site d'écoute",
+    "tags": ["WebDesign", "Rap", "Maquette"],
+    "description": "Maquettage d'un site communautaire d'écoute pour un rappeur",
+    "year": "2023",
+    "image": "images/projets/SolaluneSite.png",
+    "alt": "Site d'écoute en ligne"
+  },
+  {
+    "type": "webdesigner",
+    "title": "Confiz",
+    "tags": ["PHP", "Javascript", "login"],
+    "description": "Développement d'un site vitrine fictif d'une boutique de bonbons, compte avec autorisations, tri, ajout et suppression et panier en javascript",
+    "year": "2024",
+    "image": "images/projets/ConfizSite.png",
+    "alt": "Site Pokémon"
+  },
+  {
+    "type": "graphiste",
+    "title": "Affiche UFC",
+    "tags": ["Affiche", "Graphisme", "MMA"],
+    "description": "Réalisation d'affiches pour la communication de combats de MMA sur Affinity Photo et Designer",
+    "year": "2024",
+    "image": "images/projets/MMAAffiche.png",
+    "alt": "Affiche combat Imavov"
+  },
+  {
+    "type": "graphiste",
+    "title": "Affiche de Barbara Liskov",
+    "tags": ["Affiche", "Graphisme", "Infographie"],
+    "description": "Réalisation d'une affiche retraçant la vie de Barbara Liskov sur Affinity Photo et Designer",
+    "year": "2024",
+    "image": "images/projets/InfographieAffiche.png",
+    "alt": "Affiche de Barbara Liskov"
+  },
+  {
+    "type": "",
+    "title": "EN COURS",
+    "tags": ["Les autres", "projets", "arrivent"],
+    "description": "Excusez-moi ils arrivent d'ici 1 à 2 jours",
+    "year": "0000",
+    "image": "images/",
+    "alt": ""
+  }
+]

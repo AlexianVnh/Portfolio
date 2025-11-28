@@ -26,29 +26,58 @@ scrollable.addEventListener('mousemove', e => {
 
 
 
-const buttons = document.querySelectorAll('.projets-button');
-const projets = document.querySelectorAll('.projets-card');
+fetch('data/projets.json')
+  .then(response => response.json())
+  .then(projetsData => {
+    const container = document.getElementById('projetsContent');
 
-buttons.forEach(button => {
-  button.addEventListener('click', e => {
-    e.preventDefault();
+    projetsData.sort((a, b) => b.year - a.year);
 
-    // Remplacement des classes
-    buttons.forEach(btn => {
-      btn.classList.replace('active', 'inactive');
+    projetsData.forEach(projet => {
+      const card = document.createElement('div');
+      card.className = 'projets-card';
+      card.dataset.type = projet.type;
+
+      // Vérifie si le JSON a un lien "seeMore"
+      const seeMoreHTML = projet.seeMore ? `<a href="${projet.seeMore}" class="voir-plus button" target="_blank">Voir +</a>` : '';
+
+      card.innerHTML = `
+        <div>
+          <h3>${projet.title}</h3>
+          <p class="exp-grey">${projet.tags.map(tag => `#${tag}`).join(' ')}</p>
+          <p>${projet.description}</p>
+          <div class="exp-date">${projet.year}</div>
+          ${seeMoreHTML}
+        </div>
+        <div>
+          <img src="${projet.image}" alt="${projet.alt}" width="150px">
+        </div>
+      `;
+
+      container.appendChild(card);
     });
 
-    button.classList.replace('inactive', 'active');
+    // Récupérer les cartes **après leur ajout**
+    const projets = document.querySelectorAll('.projets-card');
 
-    const filter = button.dataset.filter;
+    // Boutons pour filtrer
+    const buttons = document.querySelectorAll('.projets-button');
+    buttons.forEach(button => {
+      button.addEventListener('click', e => {
+        e.preventDefault();
+        buttons.forEach(btn => btn.classList.replace('active', 'inactive'));
+        button.classList.replace('inactive', 'active');
 
-    projets.forEach(projet => {
-      if (filter === 'all' || projet.dataset.type === filter) {
-        projet.style.display = 'flex';
-      } else {
-        projet.style.display = 'none';
-      }
+        const filter = button.dataset.filter;
+        projets.forEach(projet => {
+          if (filter === 'all' || projet.dataset.type === filter) {
+            projet.style.display = 'flex';
+          } else {
+            projet.style.display = 'none';
+          }
+        });
+      });
     });
-  });
-});
 
+  })
+  .catch(err => console.error('Erreur lors du chargement des projets:', err));

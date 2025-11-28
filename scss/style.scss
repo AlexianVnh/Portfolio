@@ -60,6 +60,26 @@ h2 {
   width: 200px;
 }
 
+.button {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  padding: 20px 0;
+  letter-spacing: $letter-space2;
+
+  color: $white !important;
+  background-color: $black;
+  border: 1px $white solid;
+  border-radius: 50px;
+  transition: all 0.15s ease-in-out;
+
+  &:hover {
+    color: $black !important;
+    background-color: $white;
+    border: 1px $black solid;
+  }
+}
+
 body {
   overflow-x: hidden;
 }
@@ -176,25 +196,7 @@ header {
     }
   }
 
-  .CV-button {
-    display: flex;
-    justify-content: center;
-    width: 200px;
-    padding: 20px 0;   
-    letter-spacing: $letter-space2;
-
-    color: $white;
-    background-color: $black;
-    border: 1px $white solid;
-    border-radius: 50px;
-    transition: all 0.15s ease-in-out;
-
-    &:hover {
-      color: $black;
-      background-color: $white;
-      border: 1px $black solid;
-    }
-  }
+  
 
   img {
     position: absolute;
@@ -291,8 +293,7 @@ header {
   .projets-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 30px;
+    gap: 50px 30px;
 
 
     .projets-card {
@@ -303,7 +304,7 @@ header {
       gap: 20px;
 
       max-width: 500px;
-      min-width: 350px;
+      min-width: 310px;
 
       & * {color: $black;}
       background-color: $white;
@@ -438,7 +439,7 @@ header {
         background-color: $black;
         color: $white;
         border-radius: 50px;
-        padding: 20px 30%;
+        padding: 20px 25%;
       }
     }
   }
@@ -453,6 +454,7 @@ header {
     p {
       color: $white;
       margin-top: 150px;
+      text-align: center;
     }
   }
 }
