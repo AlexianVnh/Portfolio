@@ -1,5 +1,24 @@
 [
   {
+    "type": "communicant",
+    "title": "Marketing et WebMarketing d'Espressence",
+    "tags": ["Marketing", "Etude de cas"],
+    "description": "Analyse marketing pour pousser un projet de la plateforme de marque au SEO/SEA",
+    "year": "2025",
+    "image": "images/projets/Espressence.png",
+    "alt": "Image d'Espressence"
+  },
+  {
+    "type": "webdesigner",
+    "title": "Maquettage du site d'Espressence",
+    "tags": ["WebDesign", "SEO", "Parcours UX"],
+    "description": "Design et maquettage du site d'Espressence en prenant en compte des principes UX/UI",
+    "year": "2025",
+    "image": "images/projets/EspressenceMaquette.png",
+    "alt": "Site d'Espressence",
+    "seeMore": "https://www.figma.com/design/g9GiLLafLxs2hgNwBUWC42/Untitled?node-id=0-1&t=fGuYlb1t9Y4fkbFf-1"
+  },
+  {
     "type": "webdesigner",
     "title": "Site - Les Amis de Ruth",
     "tags": ["WebDesign", "SEO"],
@@ -53,6 +72,15 @@
     "year": "2024",
     "image": "images/projets/InfographieAffiche.png",
     "alt": "Affiche de Barbara Liskov"
+  },
+  {
+    "type": "3d",
+    "title": "Signalétique de la Roche Jagu",
+    "tags": ["Signalétique", "3D", "maquettage"],
+    "description": "Proposition de signalétiques pour le parc de la Roche Jagu",
+    "year": "2025",
+    "image": "images/projets/laRocheJagu.png",
+    "alt": "Modèle 3D signalétique"
   },
   {
     "type": "",
