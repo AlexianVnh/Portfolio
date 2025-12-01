@@ -42,7 +42,7 @@ fetch('data/projets.json')
       const seeMoreHTML = projet.seeMore ? `<a href="${projet.seeMore}" class="voir-plus button" target="_blank">Voir +</a>` : '';
 
       card.innerHTML = `
-        <div>
+        <div class="projets-card-text">
           <h3>${projet.title}</h3>
           <p class="exp-grey">${projet.tags.map(tag => `#${tag}`).join(' ')}</p>
           <p>${projet.description}</p>

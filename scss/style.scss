@@ -109,6 +109,11 @@ header {
     display: flex;
     align-items: center;
     gap: 20px;
+
+    a:hover {
+      text-decoration: underline;
+      text-underline-offset: 6px;
+    }
   }
   & nav:nth-of-type(2) {
     a {
@@ -312,6 +317,10 @@ header {
       border: 1px $black solid;
       border-radius: 20px;
       
+      .projets-card-text {
+        min-width: 220px; // Bon responsive
+      }
+
       &>div {
         display: flex;
         flex-direction: column;

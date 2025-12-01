@@ -87,6 +87,10 @@ header nav {
   align-items: center;
   gap: 20px;
 }
+header nav a:hover {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
 header nav:nth-of-type(2) a {
   height: 40px;
 }
@@ -288,6 +292,9 @@ header > a:nth-of-type(2) {
 }
 .projets-section .projets-content .projets-card * {
   color: #000;
+}
+.projets-section .projets-content .projets-card .projets-card-text {
+  min-width: 220px;
 }
 .projets-section .projets-content .projets-card > div {
   display: flex;
