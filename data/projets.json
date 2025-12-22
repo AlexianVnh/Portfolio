@@ -1,5 +1,24 @@
 [
   {
+    "type": "webdesigner",
+    "title": "Application de calendrier de l'avent",
+    "tags": ["WebDesign", "Maquettage", "Parcours UX"],
+    "description": "Design et maquettage de l'application mobile d'un calendrier de l'avent basé sur le film : Les 5 légendes",
+    "year": "2025",
+    "image": "images/projets/5legendes.png",
+    "alt": "Application calendrier de l'avent",
+    "seeMore": "https://www.figma.com/design/9YrQL1XWLOar3AdTZZ2TGT/5-legendes?node-id=4-19&t=BrI6DJeBJNnTEXlI-1"
+  },
+  {
+    "type": "communicant",
+    "title": "Finale Challenge innovation Orange / Nokia",
+    "tags": ["Marketing", "Création de projet"],
+    "description": "Pitch au siège de Nokia à Massy d'un projet de start-up innovant en Anglais",
+    "year": "2025",
+    "image": "images/projets/challengeInnovation.jpg",
+    "alt": "Photo du challenge"
+  },
+  {
     "type": "communicant",
     "title": "Marketing et WebMarketing d'Espressence",
     "tags": ["Marketing", "Etude de cas"],
@@ -34,8 +53,7 @@
     "description": "Développement du site vitrine de l'entreprise, comprenant des notions SEO pour se démarquer des concurrents",
     "year": "2025",
     "image": "images/projets/SVPLCSite.png",
-    "alt": "Site SavezVousPlanterLesChoux",
-    "seeMore": "https://www.savezvousplanterleschoux.fr/"
+    "alt": "Site SavezVousPlanterLesChoux"
   },
   {
     "type": "webdesigner",
@@ -79,16 +97,7 @@
     "tags": ["Signalétique", "3D", "maquettage"],
     "description": "Proposition de signalétiques pour le parc de la Roche Jagu",
     "year": "2025",
-    "image": "images/projets/laRocheJagu.png",
+    "image": "images/projets/LaRocheJagu.png",
     "alt": "Modèle 3D signalétique"
-  },
-  {
-    "type": "",
-    "title": "EN COURS",
-    "tags": ["Les autres", "projets", "arrivent"],
-    "description": "Excusez-moi ils arrivent d'ici 1 à 2 jours",
-    "year": "0000",
-    "image": "images/",
-    "alt": ""
   }
 ]
