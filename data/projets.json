@@ -1,103 +1,136 @@
 [
   {
+    "slug": "finale-challenge-innovation-orange-nokia",
+    "type": "communicant",
+    "title": "Finale Challenge innovation Orange-Nokia",
+    "tags": ["Marketing", "Création de projet"],
+    "description": "Pitch au siège de Nokia à Massy d'un projet de start-up innovant en Anglais",
+    "content": "Participation à la finale du Challenge Innovation Orange / Nokia avec la présentation d’un projet de start-up innovant. \nLe pitch, réalisé intégralement en anglais au siège de Nokia à Massy, mettait en avant la stratégie marketing, le positionnement et la viabilité du projet.\n\nCe projet a permis de développer des compétences en communication internationale, en argumentation commerciale et en présentation de projet devant un jury professionnel. Il a également renforcé la confiance dans la capacité à transformer une idée en projet concret et impactant.",
+    "year": 2025,
+    "image": "images/projets/challengeInnovation.jpg",
+    "alt": "Photo du challenge",
+    "gallery": []
+  },
+  {
+    "slug": "application-calendrier-avent-5-legendes",
     "type": "webdesigner",
     "title": "Application de calendrier de l'avent",
     "tags": ["WebDesign", "Maquettage", "Parcours UX"],
     "description": "Design et maquettage de l'application mobile d'un calendrier de l'avent basé sur le film : Les 5 légendes",
-    "year": "2025",
+    "content": "Conception UX/UI et maquettage d’une application mobile de calendrier de l’avent inspirée du film Les 5 légendes. \nLe projet mettait l’accent sur l’expérience utilisateur, la navigation intuitive et l’univers graphique immersif.\n\nCette application a permis de proposer un parcours utilisateur fluide et engageant, favorisant l’interaction quotidienne avec le contenu et renforçant l’attachement des utilisateurs à l’univers du film.",
+    "year": 2025,
     "image": "images/projets/5legendes.png",
     "alt": "Application calendrier de l'avent",
-    "seeMore": "https://www.figma.com/design/9YrQL1XWLOar3AdTZZ2TGT/5-legendes?node-id=4-19&t=BrI6DJeBJNnTEXlI-1"
+    "seeMore": "https://www.figma.com/design/9YrQL1XWLOar3AdTZZ2TGT/5-legendes?node-id=4-19&t=BrI6DJeBJNnTEXlI-1",
+    "gallery": []
   },
   {
-    "type": "communicant",
-    "title": "Finale Challenge innovation Orange / Nokia",
-    "tags": ["Marketing", "Création de projet"],
-    "description": "Pitch au siège de Nokia à Massy d'un projet de start-up innovant en Anglais",
-    "year": "2025",
-    "image": "images/projets/challengeInnovation.jpg",
-    "alt": "Photo du challenge"
-  },
-  {
+    "slug": "marketing-webmarketing-espressence",
     "type": "communicant",
     "title": "Marketing et WebMarketing d'Espressence",
     "tags": ["Marketing", "Etude de cas"],
     "description": "Analyse marketing pour pousser un projet de la plateforme de marque au SEO/SEA",
-    "year": "2025",
+    "content": "Étude de cas complète du projet Espressence, comprenant l’analyse de la plateforme de marque, la stratégie marketing et les leviers de webmarketing incluant SEO et SEA.\n\nL’objectif était de renforcer la visibilité de la marque, d’améliorer le positionnement sur le marché et de créer un plan d’action cohérent pour attirer et convertir les clients. Ce projet a permis de développer des compétences en marketing digital stratégique et en optimisation des performances commerciales.",
+    "year": 2025,
     "image": "images/projets/Espressence.png",
-    "alt": "Image d'Espressence"
+    "alt": "Image d'Espressence",
+    "gallery": []
   },
   {
+    "slug": "maquettage-site-espressence",
     "type": "webdesigner",
     "title": "Maquettage du site d'Espressence",
     "tags": ["WebDesign", "SEO", "Parcours UX"],
     "description": "Design et maquettage du site d'Espressence en prenant en compte des principes UX/UI",
-    "year": "2025",
+    "content": "Réalisation du maquettage UX/UI du site d’Espressence avec une attention particulière portée à l’ergonomie, à l’optimisation SEO et au parcours utilisateur.\n\nLe site a été conçu pour maximiser la clarté de l’information et faciliter la navigation, tout en intégrant des éléments visuels cohérents avec l’identité de marque. \nLe projet a contribué à améliorer l’expérience utilisateur et la visibilité sur les moteurs de recherche.",
+    "year": 2025,
     "image": "images/projets/EspressenceMaquette.png",
     "alt": "Site d'Espressence",
-    "seeMore": "https://www.figma.com/design/g9GiLLafLxs2hgNwBUWC42/Untitled?node-id=0-1&t=fGuYlb1t9Y4fkbFf-1"
+    "seeMore": "https://www.figma.com/design/g9GiLLafLxs2hgNwBUWC42/Untitled?node-id=0-1&t=fGuYlb1t9Y4fkbFf-1",
+    "gallery": []
   },
   {
+    "slug": "site-les-amis-de-ruth",
     "type": "webdesigner",
     "title": "Site - Les Amis de Ruth",
     "tags": ["WebDesign", "SEO"],
     "description": "Développement du site vitrine de l'association Les Amis de Ruth afin de présenter leurs activités et leur démarche.",
-    "year": "2025",
+    "content": "Développement du site vitrine de l’association Les Amis de Ruth avec une approche orientée accessibilité, clarté de l’information et référencement naturel.\n\nLe site permet de valoriser les actions de l’association, de faciliter la communication avec les adhérents et d’attirer de nouveaux bénévoles ou donateurs grâce à un référencement optimisé. Le design privilégie la simplicité et l’intuitivité pour tous les types de visiteurs.",
+    "year": 2025,
     "image": "images/projets/lesamisderuth.png",
-    "alt": "Site Les Amis de Ruth"
+    "alt": "Site Les Amis de Ruth",
+    "gallery": []
   },
   {
+    "slug": "site-savez-vous-planter-les-choux",
     "type": "webdesigner",
     "title": "Site pour Savez Vous Planter Les Choux",
     "tags": ["WebDesign", "SEO", "Wordpress"],
     "description": "Développement du site vitrine de l'entreprise, comprenant des notions SEO pour se démarquer des concurrents",
-    "year": "2025",
+    "content": "Conception et développement du site vitrine de Savez Vous Planter Les Choux sous WordPress, avec une attention particulière portée au SEO et à la visibilité locale.\n\nLe projet a permis de valoriser les produits bio de l’entreprise, de renforcer la présence digitale et de faciliter le contact avec les clients. Le site est conçu pour être facilement administrable et optimisé pour le référencement, améliorant ainsi le trafic organique.",
+    "year": 2025,
     "image": "images/projets/SVPLCSite.png",
-    "alt": "Site SavezVousPlanterLesChoux"
+    "alt": "Site SavezVousPlanterLesChoux",
+    "gallery": []
   },
   {
+    "slug": "site-ecoute-rap",
     "type": "webdesigner",
     "title": "Site d'écoute",
     "tags": ["WebDesign", "Rap", "Maquette"],
     "description": "Maquettage d'un site communautaire d'écoute pour un rappeur",
-    "year": "2023",
+    "content": "Maquettage d’un site communautaire dédié à l’écoute et au partage musical pour un artiste rap, avec une identité visuelle forte.\n\nLe site a été pensé pour créer un lien fort avec la communauté, favoriser le partage et l’interaction autour de la musique, et valoriser l’image de l’artiste à travers un design immersif et attractif.",
+    "year": 2023,
     "image": "images/projets/SolaluneSite.png",
-    "alt": "Site d'écoute en ligne"
+    "alt": "Site d'écoute en ligne",
+    "gallery": []
   },
   {
+    "slug": "confiz-site-boutique",
     "type": "webdesigner",
     "title": "Confiz",
     "tags": ["PHP", "Javascript", "login"],
     "description": "Développement d'un site vitrine fictif d'une boutique de bonbons, compte avec autorisations, tri, ajout et suppression et panier en javascript",
-    "year": "2024",
+    "content": "Développement d’un site fictif de boutique de bonbons intégrant un système de comptes utilisateurs, des autorisations, un panier dynamique et des fonctionnalités en JavaScript.\n\nLe projet a permis de mettre en pratique des compétences en développement web interactif, en gestion des sessions utilisateurs et en expérience d’achat en ligne. Il illustre la maîtrise de la logique de commerce électronique dans un environnement simulé.",
+    "year": 2024,
     "image": "images/projets/ConfizSite.png",
-    "alt": "Site Pokémon"
+    "alt": "Site Pokémon",
+    "gallery": []
   },
   {
+    "slug": "affiche-ufc-mma",
     "type": "graphiste",
     "title": "Affiche UFC",
     "tags": ["Affiche", "Graphisme", "MMA"],
     "description": "Réalisation d'affiches pour la communication de combats de MMA sur Affinity Photo et Designer",
-    "year": "2024",
+    "content": "Création d’affiches promotionnelles pour des combats de MMA, en travaillant la hiérarchie visuelle, les contrastes et l’impact graphique.\n\nL’objectif était de capter l’attention du public, de mettre en avant les combattants et de renforcer l’identité visuelle des événements. Ces affiches contribuent à une communication efficace et mémorable pour les événements sportifs.",
+    "year": 2024,
     "image": "images/projets/MMAAffiche.png",
-    "alt": "Affiche combat Imavov"
+    "alt": "Affiche combat Imavov",
+    "gallery": []
   },
   {
+    "slug": "affiche-barbara-liskov",
     "type": "graphiste",
-    "title": "Affiche de Barbara Liskov",
+    "title": "Infographie de Barbara Liskov",
     "tags": ["Affiche", "Graphisme", "Infographie"],
     "description": "Réalisation d'une affiche retraçant la vie de Barbara Liskov sur Affinity Photo et Designer",
-    "year": "2024",
+    "content": "Conception d’une affiche infographique retraçant la vie et les travaux de Barbara Liskov, en combinant rigueur informative et design graphique.\n\nLe projet vise à rendre accessibles des informations complexes de manière visuelle et attractive, tout en valorisant l’histoire et l’impact d’une figure importante de l’informatique. Cette affiche peut servir à la fois d’outil pédagogique et de support de communication visuelle.",
+    "year": 2024,
     "image": "images/projets/InfographieAffiche.png",
-    "alt": "Affiche de Barbara Liskov"
+    "alt": "Affiche de Barbara Liskov",
+    "gallery": []
   },
   {
+    "slug": "signaletique-roche-jagu",
     "type": "3d",
     "title": "Signalétique de la Roche Jagu",
-    "tags": ["Signalétique", "3D", "maquettage"],
+    "tags": ["Signalétique", "3D", "Maquettage"],
     "description": "Proposition de signalétiques pour le parc de la Roche Jagu",
-    "year": "2025",
+    "content": "Proposition de signalétiques en 3D pour le parc de la Roche Jagu, intégrant réflexion sur l’orientation, la lisibilité et l’intégration paysagère.\n\nLe projet a pour but d’améliorer l’expérience des visiteurs en facilitant leur orientation et en valorisant l’identité visuelle du parc. Les modèles 3D permettent de tester différentes options avant fabrication, garantissant ainsi fonctionnalité et esthétique.",
+    "year": 2025,
     "image": "images/projets/LaRocheJagu.png",
-    "alt": "Modèle 3D signalétique"
+    "alt": "Modèle 3D signalétique",
+    "gallery": []
   }
 ]

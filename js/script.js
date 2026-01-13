@@ -27,7 +27,7 @@ scrollable.addEventListener('mousemove', e => {
 
 
 fetch('data/projets.json')
-  .then(response => response.json())
+  .then(res => res.json())
   .then(projetsData => {
     const container = document.getElementById('projetsContent');
 
@@ -38,24 +38,24 @@ fetch('data/projets.json')
       card.className = 'projets-card';
       card.dataset.type = projet.type;
 
-      // Vérifie si le JSON a un lien "seeMore"
-      const seeMoreHTML = projet.seeMore ? `<a href="${projet.seeMore}" class="voir-plus button" target="_blank">Voir +</a>` : '';
+      // image depuis le JSON
+      card.style.backgroundImage = `url(${projet.image})`;
 
       card.innerHTML = `
-        <div class="projets-card-text">
-          <h3>${projet.title}</h3>
-          <p class="exp-grey">${projet.tags.map(tag => `#${tag}`).join(' ')}</p>
-          <p>${projet.description}</p>
+        <div class="projets-card-overlay">
           <div class="exp-date">${projet.year}</div>
-          ${seeMoreHTML}
-        </div>
-        <div>
-          <img src="${projet.image}" alt="${projet.alt}" width="150px">
+          <div class="projets-card-text">
+            <h3>${projet.title}</h3>
+            <a href="projet.html?slug=${projet.slug}" class="button">
+              Voir le projet
+            </a>
+          </div>
         </div>
       `;
 
       container.appendChild(card);
     });
+
 
     // Récupérer les cartes **après leur ajout**
     const projets = document.querySelectorAll('.projets-card');
@@ -78,6 +78,7 @@ fetch('data/projets.json')
         });
       });
     });
-
   })
   .catch(err => console.error('Erreur lors du chargement des projets:', err));
+
+
