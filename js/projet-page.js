@@ -17,7 +17,14 @@ fetch('data/projets.json')
     document.getElementById('projectYear').textContent = projet.year;
     document.getElementById('projectImage').src = projet.image;
     document.getElementById('projectImage').alt = projet.alt;
-    document.getElementById('projectContent').textContent = projet.content;
+    document.getElementById('projectContent').innerHTML = projet.content.replace(/\n/g, "<br>");
+
+    const gallery = document.getElementById('projectGallery');
+    projet.gallery?.forEach(img => {
+      const image = document.createElement('img');
+      image.src = img;
+      gallery.appendChild(image);
+    });
 
     // Fil d'Ariane
     const categoryMap = {
@@ -32,10 +39,4 @@ fetch('data/projets.json')
     document.getElementById('breadcrumbProject').textContent =
       ` / ${projet.title}`;
 
-    /*const gallery = document.getElementById('projectGallery');
-    projet.gallery?.forEach(img => {
-      const image = document.createElement('img');
-      image.src = img;
-      gallery.appendChild(image);
-    });*/
   });
