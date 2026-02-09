@@ -530,18 +530,24 @@ header {
   .gallery {
       display: flex;
       flex-wrap: wrap;
+      gap: 20px !important; 
+      margin-top: 150px;
+      
       &>img {
         height: 300px;
-        width: auto;
         max-width: none;
-        flex: 0 0 auto;
         border-radius: 20px;
         border: $black 1px solid;
+
+        @media (max-width: 700px) {
+          width: 100%;
+          height: auto;
+        }
       }
     }
   
   
-  &>div { // DIV DU CONTENU 
+  .projet-principal { // DIV DU CONTENU 
     position: relative;
     display: flex;
     gap: 50px;
