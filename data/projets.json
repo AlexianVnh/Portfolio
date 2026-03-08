@@ -20,7 +20,8 @@
     "year": 2026,
     "image": "images/projets/SOSVE.png",
     "alt": "Extrait de la vidéo",
-    "gallery": ["images/projets/SOSVE2.png", "images/projets/SOSVE3.png", "images/projets/SOSVE4.png"]
+    "gallery": ["images/projets/SOSVE2.png", "images/projets/SOSVE3.png", "images/projets/SOSVE4.png"],
+    "seeMore": ["https://www.youtube.com/watch?v=_bK1deFUL4Q"]
   },
   {
     "slug": "challenge-innovation-orange-nokia",
@@ -32,7 +33,8 @@
     "year": 2025,
     "image": "images/projets/AntiGaspIA.jpg",
     "alt": "Photo du challenge",
-    "gallery": ["images/projets/AntiGaspIA2.png","images/projets/AntiGaspIA3.png","images/projets/AntiGaspIA4.png"]
+    "gallery": ["images/projets/AntiGaspIA2.png","images/projets/AntiGaspIA3.png","images/projets/AntiGaspIA4.png"],
+    "seeMore": ["https://www.youtube.com/watch?v=nw9YjGR37lU"]
   },
   {
     "slug": "application-calendrier-avent-5-legendes",

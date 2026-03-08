@@ -361,8 +361,32 @@ header > a:nth-of-type(2) {
   z-index: 3;
 }
 
+.quijesuis-section .width-responsive {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.quijesuis-section .exp-column {
+  flex: 0 0 50%;
+}
 .quijesuis-section .quijesuis-txt span {
   font-weight: 600;
+}
+.quijesuis-section img {
+  width: 100%;
+  max-width: 700px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 20px;
+  border: solid 1px #000;
+}
+@media (max-width: 768px) {
+  .quijesuis-section .width-responsive {
+    flex-wrap: wrap;
+  }
+  .quijesuis-section .exp-column {
+    flex: 0 0 100%;
+  }
 }
 
 .exp-section > div {
@@ -469,20 +493,31 @@ header > a:nth-of-type(2) {
   text-decoration: underline;
 }
 .projet-page .gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px !important;
-  margin-top: 150px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 80px;
 }
-.projet-page .gallery > img {
-  height: 300px;
-  max-width: none;
+.projet-page .gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 4/3;
   border-radius: 20px;
   border: #000 1px solid;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.projet-page .gallery img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 @media (max-width: 700px) {
-  .projet-page .gallery > img {
-    width: 100%;
+  .projet-page .gallery {
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+  }
+  .projet-page .gallery img {
+    aspect-ratio: auto;
     height: auto;
   }
 }

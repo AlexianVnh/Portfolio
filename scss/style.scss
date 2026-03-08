@@ -397,9 +397,40 @@ header {
 }
 
 .quijesuis-section {
+
+  .width-responsive {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .exp-column {
+    flex: 0 0 50%;
+  }
+
   .quijesuis-txt {
     span {
       font-weight: 600;
+    }
+  }
+
+  img {
+    width: 100%;
+    max-width: 700px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 20px;
+    border: solid 1px $black;
+  }
+
+  // Mobile
+  @media (max-width: 768px) {
+    .width-responsive {
+      flex-wrap: wrap;
+    }
+
+    .exp-column {
+      flex: 0 0 100%;
     }
   }
 }
@@ -528,23 +559,37 @@ header {
   }
 
   .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px !important; 
-      margin-top: 150px;
-      
-      &>img {
-        height: 300px;
-        max-width: none;
-        border-radius: 20px;
-        border: $black 1px solid;
+    display: grid;
+    // Crée des colonnes d'au moins 300px, et remplit l'espace disponible
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 80px; // Réduit un peu l'espace si besoin
 
-        @media (max-width: 700px) {
-          width: 100%;
-          height: auto;
-        }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; // Pour que les images gardent une belle forme même si elles n'ont pas le même ratio
+      aspect-ratio: 4 / 3; // Donne un rythme régulier à la galerie
+      border-radius: 20px;
+      border: $black 1px solid;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
       }
     }
+
+    @media (max-width: 700px) {
+      grid-template-columns: 1fr; // Une seule colonne sur mobile
+      margin-top: 50px;
+      
+      img {
+        aspect-ratio: auto; // On laisse l'image respirer sur mobile
+        height: auto;
+      }
+    }
+  }
   
   
   .projet-principal { // DIV DU CONTENU 
